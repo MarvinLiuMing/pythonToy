@@ -32,7 +32,7 @@ key = 0
 nextstep=LEFT
 ERROR=-5
 
-def board_reset(snake,foodindex,board):
+def board_reset(snake,foodindex,board):  
     global size,pointsum
     for i in xrange(pointsum):
         if i in snake[:size]:
